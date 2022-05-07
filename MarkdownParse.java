@@ -5,7 +5,13 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 
+
 public class MarkdownParse {
+
+    public static int add(int x, int y){
+        return x+y;
+    }
+
 
     public static ArrayList<String> getLinks(String markdown) {
         ArrayList<String> toReturn = new ArrayList<>();
